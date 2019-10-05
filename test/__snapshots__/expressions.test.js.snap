@@ -1,0 +1,431 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expressions addition 1`] = `
+Object {
+  "children": Object {
+    "comparator": Array [
+      Object {
+        "children": Object {
+          "addition": Array [
+            Object {
+              "children": Object {
+                "add": Array [
+                  Object {
+                    "endColumn": 2,
+                    "endLine": 1,
+                    "endOffset": 1,
+                    "image": "+",
+                    "startColumn": 2,
+                    "startLine": 1,
+                    "startOffset": 1,
+                    "tokenType": Object {
+                      "CATEGORIES": Array [],
+                      "PATTERN": /\\\\\\+/,
+                      "categoryMatches": Array [],
+                      "categoryMatchesMap": Object {},
+                      "isParent": false,
+                      "name": "add",
+                      "tokenTypeIdx": 26,
+                    },
+                    "tokenTypeIdx": 26,
+                  },
+                ],
+                "multiplication": Array [
+                  Object {
+                    "children": Object {
+                      "primary": Array [
+                        Object {
+                          "children": Object {
+                            "integer": Array [
+                              Object {
+                                "endColumn": 1,
+                                "endLine": 1,
+                                "endOffset": 0,
+                                "image": "1",
+                                "startColumn": 1,
+                                "startLine": 1,
+                                "startOffset": 0,
+                                "tokenType": Object {
+                                  "CATEGORIES": Array [],
+                                  "PATTERN": /\\[0-9\\]\\+/,
+                                  "categoryMatches": Array [],
+                                  "categoryMatchesMap": Object {},
+                                  "isParent": false,
+                                  "name": "integer",
+                                  "tokenTypeIdx": 37,
+                                },
+                                "tokenTypeIdx": 37,
+                              },
+                            ],
+                          },
+                          "name": "primary",
+                        },
+                      ],
+                    },
+                    "name": "multiplication",
+                  },
+                  Object {
+                    "children": Object {
+                      "primary": Array [
+                        Object {
+                          "children": Object {
+                            "integer": Array [
+                              Object {
+                                "endColumn": 3,
+                                "endLine": 1,
+                                "endOffset": 2,
+                                "image": "2",
+                                "startColumn": 3,
+                                "startLine": 1,
+                                "startOffset": 2,
+                                "tokenType": Object {
+                                  "CATEGORIES": Array [],
+                                  "PATTERN": /\\[0-9\\]\\+/,
+                                  "categoryMatches": Array [],
+                                  "categoryMatchesMap": Object {},
+                                  "isParent": false,
+                                  "name": "integer",
+                                  "tokenTypeIdx": 37,
+                                },
+                                "tokenTypeIdx": 37,
+                              },
+                            ],
+                          },
+                          "name": "primary",
+                        },
+                      ],
+                    },
+                    "name": "multiplication",
+                  },
+                ],
+              },
+              "name": "addition",
+            },
+          ],
+        },
+        "name": "comparator",
+      },
+    ],
+  },
+  "name": "expression",
+}
+`;
+
+exports[`expressions division 1`] = `
+Object {
+  "children": Object {
+    "comparator": Array [
+      Object {
+        "children": Object {
+          "addition": Array [
+            Object {
+              "children": Object {
+                "multiplication": Array [
+                  Object {
+                    "children": Object {
+                      "div": Array [
+                        Object {
+                          "endColumn": 2,
+                          "endLine": 1,
+                          "endOffset": 1,
+                          "image": "/",
+                          "startColumn": 2,
+                          "startLine": 1,
+                          "startOffset": 1,
+                          "tokenType": Object {
+                            "CATEGORIES": Array [],
+                            "PATTERN": /\\\\//,
+                            "categoryMatches": Array [],
+                            "categoryMatchesMap": Object {},
+                            "isParent": false,
+                            "name": "div",
+                            "tokenTypeIdx": 25,
+                          },
+                          "tokenTypeIdx": 25,
+                        },
+                      ],
+                      "primary": Array [
+                        Object {
+                          "children": Object {
+                            "integer": Array [
+                              Object {
+                                "endColumn": 1,
+                                "endLine": 1,
+                                "endOffset": 0,
+                                "image": "1",
+                                "startColumn": 1,
+                                "startLine": 1,
+                                "startOffset": 0,
+                                "tokenType": Object {
+                                  "CATEGORIES": Array [],
+                                  "PATTERN": /\\[0-9\\]\\+/,
+                                  "categoryMatches": Array [],
+                                  "categoryMatchesMap": Object {},
+                                  "isParent": false,
+                                  "name": "integer",
+                                  "tokenTypeIdx": 37,
+                                },
+                                "tokenTypeIdx": 37,
+                              },
+                            ],
+                          },
+                          "name": "primary",
+                        },
+                        Object {
+                          "children": Object {
+                            "integer": Array [
+                              Object {
+                                "endColumn": 3,
+                                "endLine": 1,
+                                "endOffset": 2,
+                                "image": "4",
+                                "startColumn": 3,
+                                "startLine": 1,
+                                "startOffset": 2,
+                                "tokenType": Object {
+                                  "CATEGORIES": Array [],
+                                  "PATTERN": /\\[0-9\\]\\+/,
+                                  "categoryMatches": Array [],
+                                  "categoryMatchesMap": Object {},
+                                  "isParent": false,
+                                  "name": "integer",
+                                  "tokenTypeIdx": 37,
+                                },
+                                "tokenTypeIdx": 37,
+                              },
+                            ],
+                          },
+                          "name": "primary",
+                        },
+                      ],
+                    },
+                    "name": "multiplication",
+                  },
+                ],
+              },
+              "name": "addition",
+            },
+          ],
+        },
+        "name": "comparator",
+      },
+    ],
+  },
+  "name": "expression",
+}
+`;
+
+exports[`expressions multiplication 1`] = `
+Object {
+  "children": Object {
+    "comparator": Array [
+      Object {
+        "children": Object {
+          "addition": Array [
+            Object {
+              "children": Object {
+                "multiplication": Array [
+                  Object {
+                    "children": Object {
+                      "mult": Array [
+                        Object {
+                          "endColumn": 2,
+                          "endLine": 1,
+                          "endOffset": 1,
+                          "image": "*",
+                          "startColumn": 2,
+                          "startLine": 1,
+                          "startOffset": 1,
+                          "tokenType": Object {
+                            "CATEGORIES": Array [],
+                            "PATTERN": /\\\\\\*/,
+                            "categoryMatches": Array [],
+                            "categoryMatchesMap": Object {},
+                            "isParent": false,
+                            "name": "mult",
+                            "tokenTypeIdx": 24,
+                          },
+                          "tokenTypeIdx": 24,
+                        },
+                      ],
+                      "primary": Array [
+                        Object {
+                          "children": Object {
+                            "integer": Array [
+                              Object {
+                                "endColumn": 1,
+                                "endLine": 1,
+                                "endOffset": 0,
+                                "image": "1",
+                                "startColumn": 1,
+                                "startLine": 1,
+                                "startOffset": 0,
+                                "tokenType": Object {
+                                  "CATEGORIES": Array [],
+                                  "PATTERN": /\\[0-9\\]\\+/,
+                                  "categoryMatches": Array [],
+                                  "categoryMatchesMap": Object {},
+                                  "isParent": false,
+                                  "name": "integer",
+                                  "tokenTypeIdx": 37,
+                                },
+                                "tokenTypeIdx": 37,
+                              },
+                            ],
+                          },
+                          "name": "primary",
+                        },
+                        Object {
+                          "children": Object {
+                            "integer": Array [
+                              Object {
+                                "endColumn": 3,
+                                "endLine": 1,
+                                "endOffset": 2,
+                                "image": "2",
+                                "startColumn": 3,
+                                "startLine": 1,
+                                "startOffset": 2,
+                                "tokenType": Object {
+                                  "CATEGORIES": Array [],
+                                  "PATTERN": /\\[0-9\\]\\+/,
+                                  "categoryMatches": Array [],
+                                  "categoryMatchesMap": Object {},
+                                  "isParent": false,
+                                  "name": "integer",
+                                  "tokenTypeIdx": 37,
+                                },
+                                "tokenTypeIdx": 37,
+                              },
+                            ],
+                          },
+                          "name": "primary",
+                        },
+                      ],
+                    },
+                    "name": "multiplication",
+                  },
+                ],
+              },
+              "name": "addition",
+            },
+          ],
+        },
+        "name": "comparator",
+      },
+    ],
+  },
+  "name": "expression",
+}
+`;
+
+exports[`expressions subtraction 1`] = `
+Object {
+  "children": Object {
+    "comparator": Array [
+      Object {
+        "children": Object {
+          "addition": Array [
+            Object {
+              "children": Object {
+                "multiplication": Array [
+                  Object {
+                    "children": Object {
+                      "primary": Array [
+                        Object {
+                          "children": Object {
+                            "integer": Array [
+                              Object {
+                                "endColumn": 1,
+                                "endLine": 1,
+                                "endOffset": 0,
+                                "image": "1",
+                                "startColumn": 1,
+                                "startLine": 1,
+                                "startOffset": 0,
+                                "tokenType": Object {
+                                  "CATEGORIES": Array [],
+                                  "PATTERN": /\\[0-9\\]\\+/,
+                                  "categoryMatches": Array [],
+                                  "categoryMatchesMap": Object {},
+                                  "isParent": false,
+                                  "name": "integer",
+                                  "tokenTypeIdx": 37,
+                                },
+                                "tokenTypeIdx": 37,
+                              },
+                            ],
+                          },
+                          "name": "primary",
+                        },
+                      ],
+                    },
+                    "name": "multiplication",
+                  },
+                  Object {
+                    "children": Object {
+                      "primary": Array [
+                        Object {
+                          "children": Object {
+                            "integer": Array [
+                              Object {
+                                "endColumn": 3,
+                                "endLine": 1,
+                                "endOffset": 2,
+                                "image": "2",
+                                "startColumn": 3,
+                                "startLine": 1,
+                                "startOffset": 2,
+                                "tokenType": Object {
+                                  "CATEGORIES": Array [],
+                                  "PATTERN": /\\[0-9\\]\\+/,
+                                  "categoryMatches": Array [],
+                                  "categoryMatchesMap": Object {},
+                                  "isParent": false,
+                                  "name": "integer",
+                                  "tokenTypeIdx": 37,
+                                },
+                                "tokenTypeIdx": 37,
+                              },
+                            ],
+                          },
+                          "name": "primary",
+                        },
+                      ],
+                    },
+                    "name": "multiplication",
+                  },
+                ],
+                "sub": Array [
+                  Object {
+                    "endColumn": 2,
+                    "endLine": 1,
+                    "endOffset": 1,
+                    "image": "-",
+                    "startColumn": 2,
+                    "startLine": 1,
+                    "startOffset": 1,
+                    "tokenType": Object {
+                      "CATEGORIES": Array [],
+                      "PATTERN": /-/,
+                      "categoryMatches": Array [],
+                      "categoryMatchesMap": Object {},
+                      "isParent": false,
+                      "name": "sub",
+                      "tokenTypeIdx": 27,
+                    },
+                    "tokenTypeIdx": 27,
+                  },
+                ],
+              },
+              "name": "addition",
+            },
+          ],
+        },
+        "name": "comparator",
+      },
+    ],
+  },
+  "name": "expression",
+}
+`;
