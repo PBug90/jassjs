@@ -14072,6 +14072,49 @@ Object {
 }
 `;
 
+exports[`JassVisitor outputs correct AST for loop statement 1`] = `
+Object {
+  "functions": Array [
+    Object {
+      "name": "test",
+      "statements": Array [
+        Object {
+          "statements": Array [
+            Object {
+              "type": "setstm",
+              "value": Array [
+                Object {
+                  "type": "identifier",
+                  "value": "iterations",
+                },
+              ],
+              "variable": "iterations",
+            },
+            Object {
+              "expression": Object {
+                "args": Array [
+                  Object {
+                    "type": "identifier",
+                    "value": "iterations",
+                  },
+                  Object {
+                    "type": "integer",
+                    "value": "0",
+                  },
+                ],
+                "type": "eqeq",
+              },
+              "type": "exitwhen",
+            },
+          ],
+          "type": "loopstatement",
+        },
+      ],
+    },
+  ],
+}
+`;
+
 exports[`JassVisitor outputs correct AST for multiplication expression 1`] = `
 Object {
   "functions": Array [
