@@ -20,4 +20,14 @@ describe('JassParser', () => {
     `
     expect(() => parse(input)).not.toThrow()
   })
+
+  it('handles var declarations with initializer and without initializer', () => {
+    const input = `
+        function test takes nothing returns nothing
+          local unit u
+          local unit t = CreateUnit()
+        endfunction    
+    `
+    expect(() => parse(input)).not.toThrow()
+  })
 })

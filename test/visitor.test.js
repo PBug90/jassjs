@@ -51,6 +51,16 @@ describe('JassVisitor', () => {
     expect(parse(input)).toMatchSnapshot()
   })
 
+  it('handles var declarations with initializer and without initializer', () => {
+    const input = `
+        function test takes nothing returns nothing
+          local unit u
+          local unit t = CreateUnit()
+        endfunction    
+    `
+    expect(parse(input)).toMatchSnapshot()
+  })
+
   it('correctly constructs AST for complex jass input', () => {
     const input = fs.readFileSync(path.resolve(__dirname, './samples/war3map.j'), 'utf8')
     expect(parse(input)).toMatchSnapshot()
