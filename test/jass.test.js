@@ -30,4 +30,24 @@ describe('JassParser', () => {
     `
     expect(() => parse(input)).not.toThrow()
   })
+
+  it('handles a func with more than one argument', () => {
+    const input = `
+        function test takes unit u, trigger t returns nothing
+          local unit u
+          local unit t = CreateUnit()
+        endfunction    
+    `
+    expect(() => parse(input)).not.toThrow()
+  })
+
+  it('handles a func with no argument', () => {
+    const input = `
+        function test takes nothing returns nothing
+          local unit u
+          local unit t = CreateUnit()
+        endfunction    
+    `
+    expect(() => parse(input)).not.toThrow()
+  })
 })

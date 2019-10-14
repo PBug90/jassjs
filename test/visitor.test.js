@@ -61,6 +61,26 @@ describe('JassVisitor', () => {
     expect(parse(input)).toMatchSnapshot()
   })
 
+  it('handles multiple function args', () => {
+    const input = `
+    function test takes unit u, trigger t returns nothing
+      local unit u
+      local unit t = CreateUnit()
+    endfunction      
+    `
+    expect(parse(input)).toMatchSnapshot()
+  })
+
+  it('handles no function args', () => {
+    const input = `
+    function test takes nothing returns nothing
+      local unit u
+      local unit t = CreateUnit()
+    endfunction      
+    `
+    expect(parse(input)).toMatchSnapshot()
+  })
+
   it('correctly constructs AST for complex jass input', () => {
     const input = fs.readFileSync(path.resolve(__dirname, './samples/war3map.j'), 'utf8')
     expect(parse(input)).toMatchSnapshot()

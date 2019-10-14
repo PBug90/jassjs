@@ -4,11 +4,13 @@ exports[`JassVisitor correctly constructs AST for complex jass input 1`] = `
 Object {
   "functions": Array [
     Object {
+      "args": Array [],
       "name": "InitGlobals",
       "statements": Array [],
       "variableDeclarations": Array [],
     },
     Object {
+      "args": Array [],
       "name": "ItemTable000000_DropItems",
       "statements": Array [
         Object {
@@ -337,6 +339,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000001_DropItems",
       "statements": Array [
         Object {
@@ -742,6 +745,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000002_DropItems",
       "statements": Array [
         Object {
@@ -1042,6 +1046,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000009_DropItems",
       "statements": Array [
         Object {
@@ -1342,6 +1347,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000015_DropItems",
       "statements": Array [
         Object {
@@ -1642,6 +1648,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000023_DropItems",
       "statements": Array [
         Object {
@@ -2047,6 +2054,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000024_DropItems",
       "statements": Array [
         Object {
@@ -2452,6 +2460,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000040_DropItems",
       "statements": Array [
         Object {
@@ -2752,6 +2761,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000043_DropItems",
       "statements": Array [
         Object {
@@ -3052,6 +3062,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000048_DropItems",
       "statements": Array [
         Object {
@@ -3352,6 +3363,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000050_DropItems",
       "statements": Array [
         Object {
@@ -3757,6 +3769,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000051_DropItems",
       "statements": Array [
         Object {
@@ -4057,6 +4070,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000055_DropItems",
       "statements": Array [
         Object {
@@ -4357,6 +4371,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000056_DropItems",
       "statements": Array [
         Object {
@@ -4657,6 +4672,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000057_DropItems",
       "statements": Array [
         Object {
@@ -4957,6 +4973,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000060_DropItems",
       "statements": Array [
         Object {
@@ -5257,6 +5274,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000066_DropItems",
       "statements": Array [
         Object {
@@ -5557,6 +5575,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000071_DropItems",
       "statements": Array [
         Object {
@@ -5962,6 +5981,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000088_DropItems",
       "statements": Array [
         Object {
@@ -6367,6 +6387,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000093_DropItems",
       "statements": Array [
         Object {
@@ -6667,6 +6688,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "Unit000097_DropItems",
       "statements": Array [
         Object {
@@ -6967,6 +6989,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "CreateNeutralHostile",
       "statements": Array [
         Object {
@@ -12431,6 +12454,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "CreateNeutralPassiveBuildings",
       "statements": Array [
         Object {
@@ -13265,6 +13289,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "CreateNeutralPassive",
       "statements": Array [
         Object {
@@ -13871,16 +13896,19 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "CreatePlayerBuildings",
       "statements": Array [],
       "variableDeclarations": Array [],
     },
     Object {
+      "args": Array [],
       "name": "CreatePlayerUnits",
       "statements": Array [],
       "variableDeclarations": Array [],
     },
     Object {
+      "args": Array [],
       "name": "CreateAllUnits",
       "statements": Array [
         Object {
@@ -13912,6 +13940,7 @@ Object {
       "variableDeclarations": Array [],
     },
     Object {
+      "args": Array [],
       "name": "Trig_Melee_Initialization_Actions",
       "statements": Array [
         Object {
@@ -13958,6 +13987,7 @@ Object {
       "variableDeclarations": Array [],
     },
     Object {
+      "args": Array [],
       "name": "InitTrig_Melee_Initialization",
       "statements": Array [
         Object {
@@ -13993,6 +14023,7 @@ Object {
       "variableDeclarations": Array [],
     },
     Object {
+      "args": Array [],
       "name": "InitCustomTriggers",
       "statements": Array [
         Object {
@@ -14004,6 +14035,7 @@ Object {
       "variableDeclarations": Array [],
     },
     Object {
+      "args": Array [],
       "name": "RunInitializationTriggers",
       "statements": Array [
         Object {
@@ -14022,6 +14054,7 @@ Object {
       "variableDeclarations": Array [],
     },
     Object {
+      "args": Array [],
       "name": "InitCustomPlayerSlots",
       "statements": Array [
         Object {
@@ -14304,6 +14337,7 @@ Object {
       "variableDeclarations": Array [],
     },
     Object {
+      "args": Array [],
       "name": "InitCustomTeams",
       "statements": Array [
         Object {
@@ -14362,6 +14396,7 @@ Object {
       "variableDeclarations": Array [],
     },
     Object {
+      "args": Array [],
       "name": "InitAllyPriorities",
       "statements": Array [
         Object {
@@ -14464,6 +14499,7 @@ Object {
       "variableDeclarations": Array [],
     },
     Object {
+      "args": Array [],
       "name": "main",
       "statements": Array [
         Object {
@@ -14778,6 +14814,7 @@ Object {
       ],
     },
     Object {
+      "args": Array [],
       "name": "config",
       "statements": Array [
         Object {
@@ -14956,10 +14993,92 @@ Object {
 }
 `;
 
+exports[`JassVisitor handles multiple function args 1`] = `
+Object {
+  "functions": Array [
+    Object {
+      "args": Array [
+        Object {
+          "identifier": "u",
+          "type": "unit",
+        },
+        Object {
+          "identifier": "t",
+          "type": "trigger",
+        },
+      ],
+      "name": "test",
+      "statements": Array [],
+      "variableDeclarations": Array [
+        Object {
+          "declaration": Object {
+            "name": "u",
+            "type": "unit",
+            "value": null,
+          },
+          "type": "localvardeclaration",
+        },
+        Object {
+          "declaration": Object {
+            "name": "t",
+            "type": "unit",
+            "value": Array [
+              Object {
+                "args": Array [],
+                "calledFunc": "CreateUnit",
+                "type": "functioncall",
+              },
+            ],
+          },
+          "type": "localvardeclaration",
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`JassVisitor handles no function args 1`] = `
+Object {
+  "functions": Array [
+    Object {
+      "args": Array [],
+      "name": "test",
+      "statements": Array [],
+      "variableDeclarations": Array [
+        Object {
+          "declaration": Object {
+            "name": "u",
+            "type": "unit",
+            "value": null,
+          },
+          "type": "localvardeclaration",
+        },
+        Object {
+          "declaration": Object {
+            "name": "t",
+            "type": "unit",
+            "value": Array [
+              Object {
+                "args": Array [],
+                "calledFunc": "CreateUnit",
+                "type": "functioncall",
+              },
+            ],
+          },
+          "type": "localvardeclaration",
+        },
+      ],
+    },
+  ],
+}
+`;
+
 exports[`JassVisitor handles var declarations with initializer and without initializer 1`] = `
 Object {
   "functions": Array [
     Object {
+      "args": Array [],
       "name": "test",
       "statements": Array [],
       "variableDeclarations": Array [
@@ -14995,6 +15114,7 @@ exports[`JassVisitor outputs correct AST for addition expression 1`] = `
 Object {
   "functions": Array [
     Object {
+      "args": Array [],
       "name": "test",
       "statements": Array [
         Object {
@@ -15029,6 +15149,7 @@ exports[`JassVisitor outputs correct AST for division expression 1`] = `
 Object {
   "functions": Array [
     Object {
+      "args": Array [],
       "name": "test",
       "statements": Array [
         Object {
@@ -15054,6 +15175,7 @@ exports[`JassVisitor outputs correct AST for loop statement 1`] = `
 Object {
   "functions": Array [
     Object {
+      "args": Array [],
       "name": "test",
       "statements": Array [
         Object {
@@ -15098,6 +15220,7 @@ exports[`JassVisitor outputs correct AST for multiplication expression 1`] = `
 Object {
   "functions": Array [
     Object {
+      "args": Array [],
       "name": "test",
       "statements": Array [
         Object {
@@ -15132,6 +15255,7 @@ exports[`JassVisitor outputs correct AST for subtraction expression 1`] = `
 Object {
   "functions": Array [
     Object {
+      "args": Array [],
       "name": "test",
       "statements": Array [
         Object {
