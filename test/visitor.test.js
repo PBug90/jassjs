@@ -81,6 +81,15 @@ describe('JassVisitor', () => {
     expect(parse(input)).toMatchSnapshot()
   })
 
+  it('correctly constructs AST for identifier array access', () => {
+    const input = `
+    function test takes nothing returns nothing
+      set test = someother[CreateUnit()][5]
+    endfunction      
+    `
+    expect(parse(input)).toMatchSnapshot()
+  })
+
   it('correctly constructs AST for complex jass input', () => {
     const input = fs.readFileSync(path.resolve(__dirname, './samples/war3map.j'), 'utf8')
     expect(parse(input)).toMatchSnapshot()
