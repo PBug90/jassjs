@@ -15032,6 +15032,59 @@ Object {
 }
 `;
 
+exports[`JassVisitor correctly constructs AST for identifier array access with left hand array access 1`] = `
+Object {
+  "functions": Array [
+    Object {
+      "args": Array [],
+      "name": "test",
+      "statements": Array [
+        Object {
+          "arrayAccess": Array [
+            Array [
+              Object {
+                "type": "integer",
+                "value": "50",
+              },
+            ],
+            Array [
+              Object {
+                "arrayAccess": Array [
+                  Array [
+                    Object {
+                      "args": Array [],
+                      "calledFunc": "CreateUnit",
+                      "type": "functioncall",
+                    },
+                  ],
+                  Array [
+                    Object {
+                      "type": "integer",
+                      "value": "5",
+                    },
+                  ],
+                ],
+                "type": "identifierArrayAccess",
+                "value": "someother",
+              },
+            ],
+          ],
+          "type": "setstmArrayAccess",
+          "value": Array [
+            Object {
+              "type": "integer",
+              "value": "50",
+            },
+          ],
+          "variable": "test",
+        },
+      ],
+      "variableDeclarations": Array [],
+    },
+  ],
+}
+`;
+
 exports[`JassVisitor handles multiple function args 1`] = `
 Object {
   "functions": Array [
