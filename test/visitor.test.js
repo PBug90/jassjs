@@ -84,7 +84,7 @@ describe('JassVisitor', () => {
   it('correctly constructs AST for identifier array access', () => {
     const input = `
     function test takes nothing returns nothing
-      set test = someother[CreateUnit()][5]
+      set test = someother[CreateUnit()]
     endfunction      
     `
     expect(parse(input)).toMatchSnapshot()
@@ -93,7 +93,7 @@ describe('JassVisitor', () => {
   it('correctly constructs AST for identifier array access with left hand array access', () => {
     const input = `
     function test takes nothing returns nothing
-      set test[50] = someother[CreateUnit()][5]
+      set test[50] = someother[CreateUnit()]
     endfunction      
     `
     expect(parse(input)).toMatchSnapshot()

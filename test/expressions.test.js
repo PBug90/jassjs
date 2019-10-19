@@ -25,8 +25,4 @@ describe('expressions', () => {
     const input = 'arrayident[2]'
     expect(parse(input)).toMatchSnapshot()
   })
-  it('multidimensional array access', () => {
-    const input = 'arrayident[2][5]'
-    expect(parse(input)).toMatchSnapshot()
-  })
 })

@@ -126,60 +126,109 @@ Object {
                       "primary": Array [
                         Object {
                           "children": Object {
-                            "expression": Array [
+                            "arrayAccess": Array [
                               Object {
                                 "children": Object {
-                                  "comparator": Array [
+                                  "expression": Array [
                                     Object {
                                       "children": Object {
-                                        "addition": Array [
+                                        "comparator": Array [
                                           Object {
                                             "children": Object {
-                                              "multiplication": Array [
+                                              "addition": Array [
                                                 Object {
                                                   "children": Object {
-                                                    "primary": Array [
+                                                    "multiplication": Array [
                                                       Object {
                                                         "children": Object {
-                                                          "integer": Array [
+                                                          "primary": Array [
                                                             Object {
-                                                              "endColumn": 12,
-                                                              "endLine": 1,
-                                                              "endOffset": 11,
-                                                              "image": "2",
-                                                              "startColumn": 12,
-                                                              "startLine": 1,
-                                                              "startOffset": 11,
-                                                              "tokenType": Object {
-                                                                "CATEGORIES": Array [],
-                                                                "PATTERN": /\\[0-9\\]\\+/,
-                                                                "categoryMatches": Array [],
-                                                                "categoryMatchesMap": Object {},
-                                                                "isParent": false,
-                                                                "name": "integer",
-                                                                "tokenTypeIdx": 42,
+                                                              "children": Object {
+                                                                "integer": Array [
+                                                                  Object {
+                                                                    "endColumn": 12,
+                                                                    "endLine": 1,
+                                                                    "endOffset": 11,
+                                                                    "image": "2",
+                                                                    "startColumn": 12,
+                                                                    "startLine": 1,
+                                                                    "startOffset": 11,
+                                                                    "tokenType": Object {
+                                                                      "CATEGORIES": Array [],
+                                                                      "PATTERN": /\\[0-9\\]\\+/,
+                                                                      "categoryMatches": Array [],
+                                                                      "categoryMatchesMap": Object {},
+                                                                      "isParent": false,
+                                                                      "name": "integer",
+                                                                      "tokenTypeIdx": 42,
+                                                                    },
+                                                                    "tokenTypeIdx": 42,
+                                                                  },
+                                                                ],
                                                               },
-                                                              "tokenTypeIdx": 42,
+                                                              "name": "primary",
                                                             },
                                                           ],
                                                         },
-                                                        "name": "primary",
+                                                        "name": "multiplication",
                                                       },
                                                     ],
                                                   },
-                                                  "name": "multiplication",
+                                                  "name": "addition",
                                                 },
                                               ],
                                             },
-                                            "name": "addition",
+                                            "name": "comparator",
                                           },
                                         ],
                                       },
-                                      "name": "comparator",
+                                      "name": "expression",
+                                    },
+                                  ],
+                                  "lsquareparen": Array [
+                                    Object {
+                                      "endColumn": 11,
+                                      "endLine": 1,
+                                      "endOffset": 10,
+                                      "image": "[",
+                                      "startColumn": 11,
+                                      "startLine": 1,
+                                      "startOffset": 10,
+                                      "tokenType": Object {
+                                        "CATEGORIES": Array [],
+                                        "PATTERN": /\\\\\\[/,
+                                        "categoryMatches": Array [],
+                                        "categoryMatchesMap": Object {},
+                                        "isParent": false,
+                                        "name": "lsquareparen",
+                                        "tokenTypeIdx": 34,
+                                      },
+                                      "tokenTypeIdx": 34,
+                                    },
+                                  ],
+                                  "rsquareparen": Array [
+                                    Object {
+                                      "endColumn": 13,
+                                      "endLine": 1,
+                                      "endOffset": 12,
+                                      "image": "]",
+                                      "startColumn": 13,
+                                      "startLine": 1,
+                                      "startOffset": 12,
+                                      "tokenType": Object {
+                                        "CATEGORIES": Array [],
+                                        "PATTERN": /\\\\\\]/,
+                                        "categoryMatches": Array [],
+                                        "categoryMatchesMap": Object {},
+                                        "isParent": false,
+                                        "name": "rsquareparen",
+                                        "tokenTypeIdx": 35,
+                                      },
+                                      "tokenTypeIdx": 35,
                                     },
                                   ],
                                 },
-                                "name": "expression",
+                                "name": "arrayAccess",
                               },
                             ],
                             "identifier": Array [
@@ -201,48 +250,6 @@ Object {
                                   "tokenTypeIdx": 31,
                                 },
                                 "tokenTypeIdx": 31,
-                              },
-                            ],
-                            "lsquareparen": Array [
-                              Object {
-                                "endColumn": 11,
-                                "endLine": 1,
-                                "endOffset": 10,
-                                "image": "[",
-                                "startColumn": 11,
-                                "startLine": 1,
-                                "startOffset": 10,
-                                "tokenType": Object {
-                                  "CATEGORIES": Array [],
-                                  "PATTERN": /\\\\\\[/,
-                                  "categoryMatches": Array [],
-                                  "categoryMatchesMap": Object {},
-                                  "isParent": false,
-                                  "name": "lsquareparen",
-                                  "tokenTypeIdx": 34,
-                                },
-                                "tokenTypeIdx": 34,
-                              },
-                            ],
-                            "rsquareparen": Array [
-                              Object {
-                                "endColumn": 13,
-                                "endLine": 1,
-                                "endOffset": 12,
-                                "image": "]",
-                                "startColumn": 13,
-                                "startLine": 1,
-                                "startOffset": 12,
-                                "tokenType": Object {
-                                  "CATEGORIES": Array [],
-                                  "PATTERN": /\\\\\\]/,
-                                  "categoryMatches": Array [],
-                                  "categoryMatchesMap": Object {},
-                                  "isParent": false,
-                                  "name": "rsquareparen",
-                                  "tokenTypeIdx": 35,
-                                },
-                                "tokenTypeIdx": 35,
                               },
                             ],
                           },
@@ -347,253 +354,6 @@ Object {
                                   "tokenTypeIdx": 42,
                                 },
                                 "tokenTypeIdx": 42,
-                              },
-                            ],
-                          },
-                          "name": "primary",
-                        },
-                      ],
-                    },
-                    "name": "multiplication",
-                  },
-                ],
-              },
-              "name": "addition",
-            },
-          ],
-        },
-        "name": "comparator",
-      },
-    ],
-  },
-  "name": "expression",
-}
-`;
-
-exports[`expressions multidimensional array access 1`] = `
-Object {
-  "children": Object {
-    "comparator": Array [
-      Object {
-        "children": Object {
-          "addition": Array [
-            Object {
-              "children": Object {
-                "multiplication": Array [
-                  Object {
-                    "children": Object {
-                      "primary": Array [
-                        Object {
-                          "children": Object {
-                            "expression": Array [
-                              Object {
-                                "children": Object {
-                                  "comparator": Array [
-                                    Object {
-                                      "children": Object {
-                                        "addition": Array [
-                                          Object {
-                                            "children": Object {
-                                              "multiplication": Array [
-                                                Object {
-                                                  "children": Object {
-                                                    "primary": Array [
-                                                      Object {
-                                                        "children": Object {
-                                                          "integer": Array [
-                                                            Object {
-                                                              "endColumn": 12,
-                                                              "endLine": 1,
-                                                              "endOffset": 11,
-                                                              "image": "2",
-                                                              "startColumn": 12,
-                                                              "startLine": 1,
-                                                              "startOffset": 11,
-                                                              "tokenType": Object {
-                                                                "CATEGORIES": Array [],
-                                                                "PATTERN": /\\[0-9\\]\\+/,
-                                                                "categoryMatches": Array [],
-                                                                "categoryMatchesMap": Object {},
-                                                                "isParent": false,
-                                                                "name": "integer",
-                                                                "tokenTypeIdx": 42,
-                                                              },
-                                                              "tokenTypeIdx": 42,
-                                                            },
-                                                          ],
-                                                        },
-                                                        "name": "primary",
-                                                      },
-                                                    ],
-                                                  },
-                                                  "name": "multiplication",
-                                                },
-                                              ],
-                                            },
-                                            "name": "addition",
-                                          },
-                                        ],
-                                      },
-                                      "name": "comparator",
-                                    },
-                                  ],
-                                },
-                                "name": "expression",
-                              },
-                              Object {
-                                "children": Object {
-                                  "comparator": Array [
-                                    Object {
-                                      "children": Object {
-                                        "addition": Array [
-                                          Object {
-                                            "children": Object {
-                                              "multiplication": Array [
-                                                Object {
-                                                  "children": Object {
-                                                    "primary": Array [
-                                                      Object {
-                                                        "children": Object {
-                                                          "integer": Array [
-                                                            Object {
-                                                              "endColumn": 15,
-                                                              "endLine": 1,
-                                                              "endOffset": 14,
-                                                              "image": "5",
-                                                              "startColumn": 15,
-                                                              "startLine": 1,
-                                                              "startOffset": 14,
-                                                              "tokenType": Object {
-                                                                "CATEGORIES": Array [],
-                                                                "PATTERN": /\\[0-9\\]\\+/,
-                                                                "categoryMatches": Array [],
-                                                                "categoryMatchesMap": Object {},
-                                                                "isParent": false,
-                                                                "name": "integer",
-                                                                "tokenTypeIdx": 42,
-                                                              },
-                                                              "tokenTypeIdx": 42,
-                                                            },
-                                                          ],
-                                                        },
-                                                        "name": "primary",
-                                                      },
-                                                    ],
-                                                  },
-                                                  "name": "multiplication",
-                                                },
-                                              ],
-                                            },
-                                            "name": "addition",
-                                          },
-                                        ],
-                                      },
-                                      "name": "comparator",
-                                    },
-                                  ],
-                                },
-                                "name": "expression",
-                              },
-                            ],
-                            "identifier": Array [
-                              Object {
-                                "endColumn": 10,
-                                "endLine": 1,
-                                "endOffset": 9,
-                                "image": "arrayident",
-                                "startColumn": 1,
-                                "startLine": 1,
-                                "startOffset": 0,
-                                "tokenType": Object {
-                                  "CATEGORIES": Array [],
-                                  "PATTERN": /\\[a-zA-Z\\]\\\\w\\*/,
-                                  "categoryMatches": Array [],
-                                  "categoryMatchesMap": Object {},
-                                  "isParent": false,
-                                  "name": "identifier",
-                                  "tokenTypeIdx": 31,
-                                },
-                                "tokenTypeIdx": 31,
-                              },
-                            ],
-                            "lsquareparen": Array [
-                              Object {
-                                "endColumn": 11,
-                                "endLine": 1,
-                                "endOffset": 10,
-                                "image": "[",
-                                "startColumn": 11,
-                                "startLine": 1,
-                                "startOffset": 10,
-                                "tokenType": Object {
-                                  "CATEGORIES": Array [],
-                                  "PATTERN": /\\\\\\[/,
-                                  "categoryMatches": Array [],
-                                  "categoryMatchesMap": Object {},
-                                  "isParent": false,
-                                  "name": "lsquareparen",
-                                  "tokenTypeIdx": 34,
-                                },
-                                "tokenTypeIdx": 34,
-                              },
-                              Object {
-                                "endColumn": 14,
-                                "endLine": 1,
-                                "endOffset": 13,
-                                "image": "[",
-                                "startColumn": 14,
-                                "startLine": 1,
-                                "startOffset": 13,
-                                "tokenType": Object {
-                                  "CATEGORIES": Array [],
-                                  "PATTERN": /\\\\\\[/,
-                                  "categoryMatches": Array [],
-                                  "categoryMatchesMap": Object {},
-                                  "isParent": false,
-                                  "name": "lsquareparen",
-                                  "tokenTypeIdx": 34,
-                                },
-                                "tokenTypeIdx": 34,
-                              },
-                            ],
-                            "rsquareparen": Array [
-                              Object {
-                                "endColumn": 13,
-                                "endLine": 1,
-                                "endOffset": 12,
-                                "image": "]",
-                                "startColumn": 13,
-                                "startLine": 1,
-                                "startOffset": 12,
-                                "tokenType": Object {
-                                  "CATEGORIES": Array [],
-                                  "PATTERN": /\\\\\\]/,
-                                  "categoryMatches": Array [],
-                                  "categoryMatchesMap": Object {},
-                                  "isParent": false,
-                                  "name": "rsquareparen",
-                                  "tokenTypeIdx": 35,
-                                },
-                                "tokenTypeIdx": 35,
-                              },
-                              Object {
-                                "endColumn": 16,
-                                "endLine": 1,
-                                "endOffset": 15,
-                                "image": "]",
-                                "startColumn": 16,
-                                "startLine": 1,
-                                "startOffset": 15,
-                                "tokenType": Object {
-                                  "CATEGORIES": Array [],
-                                  "PATTERN": /\\\\\\]/,
-                                  "categoryMatches": Array [],
-                                  "categoryMatchesMap": Object {},
-                                  "isParent": false,
-                                  "name": "rsquareparen",
-                                  "tokenTypeIdx": 35,
-                                },
-                                "tokenTypeIdx": 35,
                               },
                             ],
                           },
