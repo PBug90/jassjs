@@ -16,6 +16,7 @@ Due to the WIP status, no usage instructions yet. Feel free to try it out though
 * function arguments
 * function return values
 * verify correct operator precedence in grammar
+* Array access
 * ... and a lot more :)
 
 ## Feature Requests

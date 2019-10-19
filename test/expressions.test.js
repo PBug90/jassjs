@@ -21,4 +21,8 @@ describe('expressions', () => {
     const input = '1-2'
     expect(parse(input)).toMatchSnapshot()
   })
+  it('array access', () => {
+    const input = 'arrayident[2]'
+    expect(parse(input)).toMatchSnapshot()
+  })
 })
