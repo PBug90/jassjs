@@ -97,6 +97,43 @@ describe('JassVisitor', () => {
     expect(parse(input)).toMatchSnapshot()
   })
 
+  it('correctly constructs AST for if statement', () => {
+    const input = `
+    function test takes nothing returns nothing
+      if (1 == 2) then
+        set u = 123
+      endif
+    endfunction      
+    `
+    expect(parse(input)).toMatchSnapshot()
+  })
+
+  it('correctly constructs AST for if else statement', () => {
+    const input = `
+    function test takes nothing returns nothing
+      if (1 == 2) then
+        set u = 123
+      else
+        set a = 123
+      endif
+    endfunction      
+    `
+    expect(parse(input)).toMatchSnapshot()
+  })
+
+  it('correctly constructs AST for if with elseif statement', () => {
+    const input = `
+    function test takes nothing returns nothing
+      if (1 == 2) then
+        set u = 123
+      elseif (5==3) then
+          set a = 123
+      endif
+    endfunction      
+    `
+    expect(parse(input)).toMatchSnapshot()
+  })
+
   it('correctly constructs AST for identifier array access', () => {
     const input = `
     function test takes nothing returns nothing

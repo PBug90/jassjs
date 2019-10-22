@@ -15610,6 +15610,190 @@ Object {
 }
 `;
 
+exports[`JassVisitor correctly constructs AST for if else statement 1`] = `
+Object {
+  "functions": Array [
+    Object {
+      "args": Array [],
+      "name": "test",
+      "returnType": "nothing",
+      "statements": Array [
+        Object {
+          "block": Array [
+            Object {
+              "type": "setstm",
+              "value": Array [
+                Object {
+                  "type": "integer",
+                  "value": "123",
+                },
+              ],
+              "variable": Object {
+                "value": "u",
+              },
+            },
+          ],
+          "condition": Object {
+            "args": Array [
+              Object {
+                "type": "integer",
+                "value": "1",
+              },
+              Object {
+                "type": "integer",
+                "value": "2",
+              },
+            ],
+            "type": "eqeq",
+          },
+          "else": Array [
+            Object {
+              "type": "setstm",
+              "value": Array [
+                Object {
+                  "type": "integer",
+                  "value": "123",
+                },
+              ],
+              "variable": Object {
+                "value": "u",
+              },
+            },
+          ],
+          "elseifs": Array [],
+          "type": "ifstatement",
+        },
+      ],
+      "variableDeclarations": Array [],
+    },
+  ],
+}
+`;
+
+exports[`JassVisitor correctly constructs AST for if statement 1`] = `
+Object {
+  "functions": Array [
+    Object {
+      "args": Array [],
+      "name": "test",
+      "returnType": "nothing",
+      "statements": Array [
+        Object {
+          "block": Array [
+            Object {
+              "type": "setstm",
+              "value": Array [
+                Object {
+                  "type": "integer",
+                  "value": "123",
+                },
+              ],
+              "variable": Object {
+                "value": "u",
+              },
+            },
+          ],
+          "condition": Object {
+            "args": Array [
+              Object {
+                "type": "integer",
+                "value": "1",
+              },
+              Object {
+                "type": "integer",
+                "value": "2",
+              },
+            ],
+            "type": "eqeq",
+          },
+          "else": Array [],
+          "elseifs": Array [],
+          "type": "ifstatement",
+        },
+      ],
+      "variableDeclarations": Array [],
+    },
+  ],
+}
+`;
+
+exports[`JassVisitor correctly constructs AST for if with elseif statement 1`] = `
+Object {
+  "functions": Array [
+    Object {
+      "args": Array [],
+      "name": "test",
+      "returnType": "nothing",
+      "statements": Array [
+        Object {
+          "block": Array [
+            Object {
+              "type": "setstm",
+              "value": Array [
+                Object {
+                  "type": "integer",
+                  "value": "123",
+                },
+              ],
+              "variable": Object {
+                "value": "u",
+              },
+            },
+          ],
+          "condition": Object {
+            "args": Array [
+              Object {
+                "type": "integer",
+                "value": "1",
+              },
+              Object {
+                "type": "integer",
+                "value": "2",
+              },
+            ],
+            "type": "eqeq",
+          },
+          "else": Array [],
+          "elseifs": Array [
+            Object {
+              "block": Array [
+                Object {
+                  "type": "setstm",
+                  "value": Array [
+                    Object {
+                      "type": "integer",
+                      "value": "123",
+                    },
+                  ],
+                  "variable": Object {
+                    "value": "a",
+                  },
+                },
+              ],
+              "condition": Object {
+                "args": Array [
+                  Object {
+                    "type": "integer",
+                    "value": "5",
+                  },
+                  Object {
+                    "type": "integer",
+                    "value": "3",
+                  },
+                ],
+                "type": "eqeq",
+              },
+            },
+          ],
+          "type": "ifstatement",
+        },
+      ],
+      "variableDeclarations": Array [],
+    },
+  ],
+}
+`;
+
 exports[`JassVisitor handles multiple function args 1`] = `
 Object {
   "functions": Array [
