@@ -81,6 +81,22 @@ describe('JassVisitor', () => {
     expect(parse(input)).toMatchSnapshot()
   })
 
+  it('handles nothing as return type', () => {
+    const input = `
+    function test takes nothing returns nothing
+    endfunction      
+    `
+    expect(parse(input)).toMatchSnapshot()
+  })
+
+  it('handles unit as return type', () => {
+    const input = `
+    function test takes nothing returns unit
+    endfunction      
+    `
+    expect(parse(input)).toMatchSnapshot()
+  })
+
   it('correctly constructs AST for identifier array access', () => {
     const input = `
     function test takes nothing returns nothing

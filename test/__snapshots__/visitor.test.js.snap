@@ -6,12 +6,14 @@ Object {
     Object {
       "args": Array [],
       "name": "InitGlobals",
+      "returnType": "nothing",
       "statements": Array [],
       "variableDeclarations": Array [],
     },
     Object {
       "args": Array [],
       "name": "ItemTable000000_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -353,6 +355,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000001_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -773,6 +776,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000002_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -1086,6 +1090,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000009_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -1399,6 +1404,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000015_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -1712,6 +1718,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000023_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -2132,6 +2139,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000024_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -2552,6 +2560,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000040_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -2865,6 +2874,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000043_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -3178,6 +3188,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000048_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -3491,6 +3502,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000050_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -3911,6 +3923,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000051_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -4224,6 +4237,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000055_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -4537,6 +4551,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000056_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -4850,6 +4865,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000057_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -5163,6 +5179,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000060_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -5476,6 +5493,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000066_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -5789,6 +5807,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000071_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -6209,6 +6228,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000088_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -6629,6 +6649,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000093_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -6942,6 +6963,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Unit000097_DropItems",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -7255,6 +7277,7 @@ Object {
     Object {
       "args": Array [],
       "name": "CreateNeutralHostile",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -12904,6 +12927,7 @@ Object {
     Object {
       "args": Array [],
       "name": "CreateNeutralPassiveBuildings",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -13771,6 +13795,7 @@ Object {
     Object {
       "args": Array [],
       "name": "CreateNeutralPassive",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -14406,18 +14431,21 @@ Object {
     Object {
       "args": Array [],
       "name": "CreatePlayerBuildings",
+      "returnType": "nothing",
       "statements": Array [],
       "variableDeclarations": Array [],
     },
     Object {
       "args": Array [],
       "name": "CreatePlayerUnits",
+      "returnType": "nothing",
       "statements": Array [],
       "variableDeclarations": Array [],
     },
     Object {
       "args": Array [],
       "name": "CreateAllUnits",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "args": Array [],
@@ -14450,6 +14478,7 @@ Object {
     Object {
       "args": Array [],
       "name": "Trig_Melee_Initialization_Actions",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "args": Array [],
@@ -14497,6 +14526,7 @@ Object {
     Object {
       "args": Array [],
       "name": "InitTrig_Melee_Initialization",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -14535,6 +14565,7 @@ Object {
     Object {
       "args": Array [],
       "name": "InitCustomTriggers",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "args": Array [],
@@ -14547,6 +14578,7 @@ Object {
     Object {
       "args": Array [],
       "name": "RunInitializationTriggers",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "args": Array [
@@ -14566,6 +14598,7 @@ Object {
     Object {
       "args": Array [],
       "name": "InitCustomPlayerSlots",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "args": Array [
@@ -14849,6 +14882,7 @@ Object {
     Object {
       "args": Array [],
       "name": "InitCustomTeams",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "args": Array [
@@ -14908,6 +14942,7 @@ Object {
     Object {
       "args": Array [],
       "name": "InitAllyPriorities",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "args": Array [
@@ -15011,6 +15046,7 @@ Object {
     Object {
       "args": Array [],
       "name": "main",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "args": Array [
@@ -15328,6 +15364,7 @@ Object {
     Object {
       "args": Array [],
       "name": "config",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "args": Array [
@@ -15511,6 +15548,7 @@ Object {
     Object {
       "args": Array [],
       "name": "test",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -15542,6 +15580,7 @@ Object {
     Object {
       "args": Array [],
       "name": "test",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "type": "setstm",
@@ -15586,6 +15625,7 @@ Object {
         },
       ],
       "name": "test",
+      "returnType": "nothing",
       "statements": Array [],
       "variableDeclarations": Array [
         Object {
@@ -15622,6 +15662,7 @@ Object {
     Object {
       "args": Array [],
       "name": "test",
+      "returnType": "nothing",
       "statements": Array [],
       "variableDeclarations": Array [
         Object {
@@ -15652,12 +15693,41 @@ Object {
 }
 `;
 
+exports[`JassVisitor handles nothing as return type 1`] = `
+Object {
+  "functions": Array [
+    Object {
+      "args": Array [],
+      "name": "test",
+      "returnType": "nothing",
+      "statements": Array [],
+      "variableDeclarations": Array [],
+    },
+  ],
+}
+`;
+
+exports[`JassVisitor handles unit as return type 1`] = `
+Object {
+  "functions": Array [
+    Object {
+      "args": Array [],
+      "name": "test",
+      "returnType": "unit",
+      "statements": Array [],
+      "variableDeclarations": Array [],
+    },
+  ],
+}
+`;
+
 exports[`JassVisitor handles var declarations with initializer and without initializer 1`] = `
 Object {
   "functions": Array [
     Object {
       "args": Array [],
       "name": "test",
+      "returnType": "nothing",
       "statements": Array [],
       "variableDeclarations": Array [
         Object {
@@ -15694,6 +15764,7 @@ Object {
     Object {
       "args": Array [],
       "name": "test",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "args": Array [
@@ -15729,6 +15800,7 @@ Object {
     Object {
       "args": Array [],
       "name": "test",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "args": Array [
@@ -15755,6 +15827,7 @@ Object {
     Object {
       "args": Array [],
       "name": "test",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "statements": Array [
@@ -15802,6 +15875,7 @@ Object {
     Object {
       "args": Array [],
       "name": "test",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "args": Array [
@@ -15837,6 +15911,7 @@ Object {
     Object {
       "args": Array [],
       "name": "test",
+      "returnType": "nothing",
       "statements": Array [
         Object {
           "args": Array [
